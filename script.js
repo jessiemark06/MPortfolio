@@ -14,7 +14,7 @@ const body = document.querySelector("body"),
             body.classList.toggle("dark");
 
         }); var typingEffect = new Typed(".typedText", {
-            strings: ["Student", "Freelancer", "Developer"],
+            strings: ["Web", "Developer", "Freelancer"],
 
             loop: true,
             typeSpeed: 100,
@@ -96,7 +96,7 @@ const body = document.querySelector("body"),
         
  
         function downloadCV() {
-            const cvUrl = 'C:/Users/user/Documents.resume.docs'; 
+            const cvUrl = 'Resume_Baronda.pdf'; 
             window.location.href = cvUrl;
         }
 
